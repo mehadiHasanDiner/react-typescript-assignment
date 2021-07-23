@@ -17,11 +17,11 @@ export interface IState {
 function App() {
   const [contact, setContact] = useState<IState["people"]>([
     {
-      name: "James",
-      age: 35,
+      name: "React",
+      age: 10,
       email: "abc@email.com",
-      url: "http://172.16.50.8/SAM-FTP/South%20Indian%20Movies/HINDI%20DUBBED/%282021%29/Mosagallu%20%282021%29%20720p%20%5BDual%20CAM%20Audio%5D/a_AL_.jpg",
-      remarks: "Hello Wrold",
+      url: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
+      remarks: "Hello World",
       key:""
     }
   ]);
