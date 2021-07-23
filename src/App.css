@@ -44,9 +44,11 @@
   list-style: none;
   display: flex;
   align-items: center;
+  background-color: white;
   width: 50rem;
   margin: 0rem auto;
   border: 0.1rem solid rgba(0, 0, 0, 0.233);
+  border-radius: 0.5rem;
   padding: 1rem;
   justify-content: space-between;
 }
@@ -57,7 +59,7 @@
 }
 
 .List-header h2 {
-  color: rgb(37, 36, 36)
+  color: rgb(36, 37, 37)
 }
 
 .List-img {
@@ -88,7 +90,7 @@
 .AddToList-btn {
   padding: 0.5rem;
   cursor: pointer;
-  background-color: #0b5468;
+  background-color: #008528;
   font-weight: 700;
   color: white;
   border: none

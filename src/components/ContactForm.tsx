@@ -16,7 +16,7 @@ const ContactForm: React.FC<IProps> = ({ setContact, people }) => {
         remarks: ""
     })
 
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         console.log(e.target.value)
         setInput({
             ...input,
